@@ -1,0 +1,60 @@
+body {
+  overflow: hidden;
+}
+
+#logo-svg {
+  height: 300px;
+  width: 300px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  fill-opacity: 0;
+  z-index: 1
+}
+
+#globe-svg {
+  position: absolute;
+  width: 100vw;
+/*   height: 100vh; */
+  left: 0;
+  top: 0;
+  background-color: black;
+/*   transform: translateY(-25%) scale(1); */
+}
+
+.logo-outline {
+/* stroke-dasharray: 1156; */
+stroke:#2AEAFF;
+/*   stroke-dashoffset: 1190;
+  animation: dash 3s linear forwards;
+  transition: 0.5; */
+}
+
+.w-outline {
+/*   stroke-dasharray: 16;
+  fill:none;
+  stroke:#2AEAFF;
+  stroke-dashoffset: 1159;
+  animation: dash 14s linear infinite; */
+}
+
+
+.ctrls-ol {
+  stroke-width: 1px;
+  stroke:#2AEAFF;
+  fill:none;
+/*   stroke-dasharray: 90;
+  fill:none;
+  stroke:#2AEAFF; 
+  stroke-dashoffset: 90;
+  animation: dash 1s 0.5s linear forwards; */
+}
+
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+/*     fill: #136871; */
+  }
+}
+
